@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FastLayout",
+        "repositoryURL": "https://github.com/XCBOSA/FastLayout.git",
+        "state": {
+          "branch": "main",
+          "revision": "b283289f2df0ec25e3f8c02107e7a95d7917a605",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
