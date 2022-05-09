@@ -16,11 +16,11 @@ public protocol MenuBarItemProvider: UIViewController {
 
 extension MenuBarItemProvider {
     
-    func provideExtraMenuBarItems() -> [MenuBarMenu] { [] }
+    public func provideExtraMenuBarItems() -> [MenuBarMenu] { [] }
     
-    func provideExtraExtraMenuBarItems() -> [MenuBarMenu] { [] }
+    public func provideExtraExtraMenuBarItems() -> [MenuBarMenu] { [] }
     
-    func provideRightItem() -> [MenuBarRightItem] { [] }
+    public func provideRightItem() -> [MenuBarRightItem] { [] }
     
     internal func provideAllMenuBarItems() -> [MenuBarMenu] {
         var items = [MenuBarMenu]()
